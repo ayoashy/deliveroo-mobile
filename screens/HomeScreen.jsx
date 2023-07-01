@@ -52,7 +52,7 @@ const HomeScreen = () => {
     fetchData();
   }, []);
 
-  // console.log(featuredCategories);
+  // console.log(featuredCategories, 'featuredCatgory');
 
   return (
     <SafeAreaView style={styles.container} className='bg-white pt-5'>

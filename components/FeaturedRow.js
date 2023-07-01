@@ -29,9 +29,6 @@ const FeaturedRow = ({ title, description, id }) => {
       });
   }, [id]);
 
-  console.log('====================================');
-  console.log(restaurants, 'lloooolll');
-  console.log('====================================');
   return (
     <View className=''>
       <View className='mt-4 flex-row justify-between items-center px-4'>
